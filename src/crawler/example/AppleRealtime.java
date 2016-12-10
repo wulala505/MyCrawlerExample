@@ -12,6 +12,7 @@ import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableSortedMap;
 
 /**
+ * Test push to github
  * 補充教材 蘋果即時新聞
  * 重點：
  * 	1. regular expression 使用
@@ -26,7 +27,7 @@ public class AppleRealtime {
 	static SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHH:mm");
 	
 	public static void main(String[] args) throws Exception{
-		
+		//Test push to github
 		// 遠端資料路徑
 		String uri = "http://www.appledaily.com.tw/realtimenews/section/new/";
 
