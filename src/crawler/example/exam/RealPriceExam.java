@@ -44,7 +44,7 @@ public class RealPriceExam {
 //			System.out.print(",\""+elem.select("都市土地使用分區").text()+"\"");
 //			System.out.print(",\""+elem.select("土地區段位置或建物區門牌").text()+"\"");
 			System.out.print(","+elem.select("總價元").text());
-			System.out.print(","+elem.select("單價每平方公尺").text());
+//			System.out.print(","+elem.select("單價每平方公尺").text());
 			System.out.println();
 		}
 
