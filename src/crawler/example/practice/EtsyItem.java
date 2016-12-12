@@ -31,6 +31,8 @@ public class EtsyItem {
 		//int sum=Integer.parseInt(doc.select("span[aria-hidden=true]").text());
 
 		String output = "title,sName,currency,\n";
+		//未知頁數翻頁
+//		int sumpages=Integer.parseInt(doc.select("span[aria-hidden=true]").text().replaceAll("\\D", ""));
 		//已知頁數為250，翻頁爬蟲
 		for (int i = 1; i < 250; i++){
 			String everypageurl="https://www.etsy.com/search?q=ykk+zippers&order=most_relevant&view_type=gallery&explicit=1&page="+i;
